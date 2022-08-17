@@ -1,0 +1,134 @@
+# dune runtest -f
+# OCAMLPARAM: unset
+# Workspace root: /Users/billytheredneck/cmsc330fall2021/project4b
+$ /usr/bin/getconf _NPROCESSORS_ONLN > /var/folders/sd/b57gn8yx4nx9qh_9lyylhzj80000gp/T/dunefbe460.output 2> /dev/null
+# Auto-detected concurrency: 4
+# disable binary cache
+$ /Users/billytheredneck/.opam/4.11.0/bin/ocamlc.opt -config > /var/folders/sd/b57gn8yx4nx9qh_9lyylhzj80000gp/T/dune4abcc4.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Release
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some External "/Users/billytheredneck/.opam/4.11.0/lib/toplevel"
+#  ; ocaml_bin = External "/Users/billytheredneck/.opam/4.11.0/bin"
+#  ; ocaml = Ok External "/Users/billytheredneck/.opam/4.11.0/bin/ocaml"
+#  ; ocamlc = External "/Users/billytheredneck/.opam/4.11.0/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok External "/Users/billytheredneck/.opam/4.11.0/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok External "/Users/billytheredneck/.opam/4.11.0/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok External "/Users/billytheredneck/.opam/4.11.0/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/Users/billytheredneck/.opam/4.11.0/lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "/Users/billytheredneck/.opam/4.11.0/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/Users/billytheredneck/cmsc330fall2021/project4b"
+#        ; "INSIDE_DUNE" :
+#            "/Users/billytheredneck/cmsc330fall2021/project4b/_build/default"
+#        ; "MANPATH" :
+#            "/Users/billytheredneck/cmsc330fall2021/project4b/_build/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/billytheredneck/cmsc330fall2021/project4b/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/billytheredneck/cmsc330fall2021/project4b/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/billytheredneck/cmsc330fall2021/project4b/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/Users/billytheredneck/.opam/4.11.0/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.11.0"
+#      ; standard_library_default =
+#          "/Users/billytheredneck/.opam/4.11.0/lib/ocaml"
+#      ; standard_library = "/Users/billytheredneck/.opam/4.11.0/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin19.2.0"
+#      ; target = "x86_64-apple-darwin19.2.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X028"
+#      ; cmi_magic_number = "Caml1999I028"
+#      ; cmo_magic_number = "Caml1999O028"
+#      ; cma_magic_number = "Caml1999A028"
+#      ; cmx_magic_number = "Caml1999Y028"
+#      ; cmxa_magic_number = "Caml1999Z028"
+#      ; ast_impl_magic_number = "Caml1999M028"
+#      ; ast_intf_magic_number = "Caml1999N028"
+#      ; cmxs_magic_number = "Caml1999D028"
+#      ; cmt_magic_number = "Caml1999T028"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /Users/billytheredneck/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -I src/.p4b.objs/byte -I src/.p4b.objs/native -intf-suffix .ml -no-alias-deps -open P4b -o src/.p4b.objs/native/p4b__Eval.cmx -c -impl src/eval.ml)
+$ (cd _build/default && /Users/billytheredneck/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -a -o src/p4b.cmxa src/.p4b.objs/native/p4b.cmx src/.p4b.objs/native/p4b__MicroCamlTypes.cmx src/.p4b.objs/native/p4b__TokenTypes.cmx src/.p4b.objs/native/p4b__Utils.cmx src/.p4b.objs/native/p4b__Parser.cmx src/.p4b.objs/native/p4b__Lexer.cmx src/.p4b.objs/native/p4b__Eval.cmx)
+$ (cd _build/default && /Users/billytheredneck/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -I test/.testUtils.objs/byte -I test/.testUtils.objs/native -I /Users/billytheredneck/.opam/4.11.0/lib/bytes -I /Users/billytheredneck/.opam/4.11.0/lib/oUnit -I /Users/billytheredneck/.opam/4.11.0/lib/ounit2 -I /Users/billytheredneck/.opam/4.11.0/lib/ounit2/advanced -I /Users/billytheredneck/.opam/4.11.0/lib/stdlib-shims -I src/.p4b.objs/byte -I src/.p4b.objs/native -intf-suffix .ml -no-alias-deps -o test/.testUtils.objs/native/testUtils.cmx -c -impl test/testUtils.ml)
+$ (cd _build/default && /Users/billytheredneck/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -a -o test/testUtils.cmxa test/.testUtils.objs/native/testUtils.cmx)
+$ (cd _build/default && /Users/billytheredneck/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -I test/pbt/.pbt.eobjs/byte -I test/pbt/.pbt.eobjs/native -I /Users/billytheredneck/.opam/4.11.0/lib/bytes -I /Users/billytheredneck/.opam/4.11.0/lib/oUnit -I /Users/billytheredneck/.opam/4.11.0/lib/ounit2 -I /Users/billytheredneck/.opam/4.11.0/lib/ounit2/advanced -I /Users/billytheredneck/.opam/4.11.0/lib/qcheck -I /Users/billytheredneck/.opam/4.11.0/lib/qcheck-core -I /Users/billytheredneck/.opam/4.11.0/lib/qcheck-core/runner -I /Users/billytheredneck/.opam/4.11.0/lib/qcheck-ounit -I /Users/billytheredneck/.opam/4.11.0/lib/stdlib-shims -I src/.p4b.objs/byte -I src/.p4b.objs/native -I test/.testUtils.objs/byte -I test/.testUtils.objs/native -intf-suffix .ml -no-alias-deps -o test/pbt/.pbt.eobjs/native/dune__exe__Pbt.cmx -c -impl test/pbt/pbt.ml)
+$ (cd _build/default && /Users/billytheredneck/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -I test/public/.public.eobjs/byte -I test/public/.public.eobjs/native -I /Users/billytheredneck/.opam/4.11.0/lib/bytes -I /Users/billytheredneck/.opam/4.11.0/lib/oUnit -I /Users/billytheredneck/.opam/4.11.0/lib/ounit2 -I /Users/billytheredneck/.opam/4.11.0/lib/ounit2/advanced -I /Users/billytheredneck/.opam/4.11.0/lib/stdlib-shims -I src/.p4b.objs/byte -I src/.p4b.objs/native -I test/.testUtils.objs/byte -I test/.testUtils.objs/native -intf-suffix .ml -no-alias-deps -o test/public/.public.eobjs/native/dune__exe__Public.cmx -c -impl test/public/public.ml)
+$ (cd _build/default && /Users/billytheredneck/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -o test/pbt/pbt.exe /Users/billytheredneck/.opam/4.11.0/lib/ocaml/str.cmxa -I /Users/billytheredneck/.opam/4.11.0/lib/ocaml src/p4b.cmxa /Users/billytheredneck/.opam/4.11.0/lib/ocaml/unix.cmxa -I /Users/billytheredneck/.opam/4.11.0/lib/ocaml /Users/billytheredneck/.opam/4.11.0/lib/stdlib-shims/stdlib_shims.cmxa /Users/billytheredneck/.opam/4.11.0/lib/ounit2/advanced/oUnitAdvanced.cmxa /Users/billytheredneck/.opam/4.11.0/lib/ounit2/oUnit.cmxa /Users/billytheredneck/.opam/4.11.0/lib/qcheck-core/qcheck_core.cmxa /Users/billytheredneck/.opam/4.11.0/lib/qcheck-core/runner/qcheck_runner.cmxa /Users/billytheredneck/.opam/4.11.0/lib/qcheck-ounit/qcheck_ounit.cmxa /Users/billytheredneck/.opam/4.11.0/lib/qcheck/qcheck.cmxa test/testUtils.cmxa test/pbt/.pbt.eobjs/native/dune__exe__Pbt.cmx)
+$ (cd _build/default && /Users/billytheredneck/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -o test/public/public.exe /Users/billytheredneck/.opam/4.11.0/lib/ocaml/str.cmxa -I /Users/billytheredneck/.opam/4.11.0/lib/ocaml src/p4b.cmxa /Users/billytheredneck/.opam/4.11.0/lib/ocaml/unix.cmxa -I /Users/billytheredneck/.opam/4.11.0/lib/ocaml /Users/billytheredneck/.opam/4.11.0/lib/stdlib-shims/stdlib_shims.cmxa /Users/billytheredneck/.opam/4.11.0/lib/ounit2/advanced/oUnitAdvanced.cmxa /Users/billytheredneck/.opam/4.11.0/lib/ounit2/oUnit.cmxa test/testUtils.cmxa test/public/.public.eobjs/native/dune__exe__Public.cmx)
+$ (cd _build/default/test/public && ./public.exe)
+> ..............................
+> Ran: 30 tests in: 0.16 seconds.
+> OK
+$ (cd _build/default/test/pbt && ./pbt.exe)
+> ....
+> Ran: 4 tests in: 0.38 seconds.
+> OK

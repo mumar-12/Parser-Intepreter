@@ -1,0 +1,48 @@
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:0:public_nothing.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:0:public_nothing is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:0:public_nothing.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:2:public_mutop_simple_def_and_let.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:2:public_mutop_simple_def_and_let is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:2:public_mutop_simple_def_and_let.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:3:public_expr_add1.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:3:public_expr_add1 is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:3:public_expr_add1.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:6:public_expr_let_if.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:6:public_expr_let_if is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:6:public_expr_let_if.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:8:public_expr_minus_one.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:8:public_expr_minus_one is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:8:public_expr_minus_one.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:9:public_expr_nested_let.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:9:public_expr_nested_let is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:9:public_expr_nested_let.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:11:public_expr_simple_concat.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:11:public_expr_simple_concat is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:11:public_expr_simple_concat.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:13:public_expr_simple_mult.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:13:public_expr_simple_mult is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:13:public_expr_simple_mult.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:15:public_expr_simple_sum.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:15:public_expr_simple_sum is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:15:public_expr_simple_sum.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:17:public_expr_single_bool.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:17:public_expr_single_bool is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:17:public_expr_single_bool.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:19:public_expr_single_if.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:19:public_expr_single_if is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:19:public_expr_single_if.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:21:public_expr_single_notequal.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:21:public_expr_single_notequal is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:21:public_expr_single_notequal.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:22:public_expr_single_not.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:22:public_expr_single_not is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:22:public_expr_single_not.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:25:public_expr_single_string.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:25:public_expr_single_string is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:25:public_expr_single_string.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:26:public_err_div_by_zero.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:26:public_err_div_by_zero is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:26:public_err_div_by_zero.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Start test public:28:public_mutop_nonempty_env.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: Test public:28:public_mutop_nonempty_env is successful.
+2021-11-17T01:05:02+00:00 Muhammads-MacBook-Pro.local#01 I: End test public:28:public_mutop_nonempty_env.
